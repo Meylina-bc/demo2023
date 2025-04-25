@@ -113,13 +113,17 @@ int main(int argc, char* argv[]) {
     if (config.find("logFile") != config.end()) {
         logFile = config["logFile"];
     }
+    std::string usersFile = "users.txt";
+    if (config.find("users") != config.end()) {
+        usersFile = config["users"];
+    }
 
     // Разделяем логи от прошлого запуска
     writeLog(logFile, "");
     writeLog(logFile, "------");
 
     // Загружаем список пользователей
-    auto users = loadUsers("users.txt");
+    auto users = loadUsers(usersFile);
 
     // Создаём серверный сокет
     int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
