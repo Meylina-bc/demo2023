@@ -1,0 +1,5 @@
+username = Alina
+password = alina00
+serverAddress = 127.0.0.1
+port = 5555
+logFile = client-alina.log

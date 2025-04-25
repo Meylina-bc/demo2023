@@ -1,0 +1,4 @@
+/Users/alina/Desktop/evm/homework/semester3/xoxoxo/build/CMakeFiles/server.dir
+/Users/alina/Desktop/evm/homework/semester3/xoxoxo/build/CMakeFiles/client.dir
+/Users/alina/Desktop/evm/homework/semester3/xoxoxo/build/CMakeFiles/edit_cache.dir
+/Users/alina/Desktop/evm/homework/semester3/xoxoxo/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+port = 5555
+moveTime = 30
+logFile = server.log
