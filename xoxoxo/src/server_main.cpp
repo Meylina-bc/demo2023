@@ -152,6 +152,8 @@ int main(int argc, char* argv[]) {
 
     printLog(logFile, "Сервер запущен. Порт: " + std::to_string(port));
 
+    while(true){
+
     // Принимаем двух клиентов
     std::vector<int> clientSockets;
     std::vector<std::string> clientUsers;
@@ -371,6 +373,7 @@ int main(int argc, char* argv[]) {
     // Закрываем соединения
     close(clientSocket1);
     close(clientSocket2);
+}
     close(serverSocket);
     printLog(logFile, "Сервер остановлен.");
 
